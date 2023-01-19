@@ -1,0 +1,24 @@
+div:hover {
+ border: 2px solid blueviolet;
+}
+div:nth-of-type(1) {
+    background-color: lightblue;
+}
+div:nth-of-type(2) {
+    background-color: aqua;
+}
+
+div:nth-of-type(3) {
+    background-color: gray; height: 60px ; padding-top: 1px;
+}
+div:nth-of-type(4) {
+    background-color: lightseagreen;
+}
+
+div:nth-of-type(5) {
+    background-color: rgb(142, 180, 223);
+}
+
+div:nth-child(odd) h3 {
+    font-style: italic
+}
