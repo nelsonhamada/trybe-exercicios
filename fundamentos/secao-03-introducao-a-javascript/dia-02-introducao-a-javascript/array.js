@@ -44,13 +44,13 @@
 
 // Calculando a soma de todos os valores:
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let resultado = 0;
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let resultado = 0;
 
-for (let index= 0; index < numbers.length; index += 1) {
-    resultado += numbers[index]
+// for (let index= 0; index < numbers.length; index += 1) {
+//     resultado += numbers[index]
  
-} console.log(resultado)
+// } console.log(resultado)
 
 
 //Calculando a média aritimética e imprima 'Valor maior que 20' ou 'Valor menor que 20': 
@@ -95,3 +95,12 @@ for (let index= 0; index < numbers.length; index += 1) {
 //     console.log(resultado)
 // }
   
+
+
+const n = `"?"` ;
+
+let resultado = 100;
+for (let index = 0; index <= n; index += 1) {
+  resultado -= index;
+};
+console.log(resultado);

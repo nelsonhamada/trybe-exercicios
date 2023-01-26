@@ -66,7 +66,7 @@
 let inss;
 let ir;
 
-const salarioBruto = 4000.00;
+const salarioBruto = 5000.00;
 
 if (salarioBruto <= 1556.94) {
   inss = salarioBruto * 0.08;
